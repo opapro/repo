@@ -1,5 +1,5 @@
 import streamlit as st
-from transcriber import Transcription
+#from transcriber import Transcription
 import docx
 from datetime import datetime
 import pathlib
