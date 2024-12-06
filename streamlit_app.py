@@ -1,11 +1,8 @@
-
 import streamlit as st
 import pandas as pd
+import whisper
  
-st.write("""
-# My first app
-Hello *world!*
-""")
- 
-df = pd.read_csv("my_data.csv")
-st.line_chart(df)
+uploaded_file = st.file_uploader("Abrir Arquivo")
+
+
+
